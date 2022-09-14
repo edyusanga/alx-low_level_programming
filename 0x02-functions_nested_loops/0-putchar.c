@@ -1,12 +1,16 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - print putchar
- * Return: always 0
- */
+  * main - Entry point
+  * Description: prints _putchar, followed by a new line
+  * Return: Always zero (0)
+*/
 
 int main(void)
 {
+
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,6 +22,8 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
+
+
+
 
